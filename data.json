@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "CP-001",
+      "name": "Electronic Circuit Board",
+      "qty": 8,
+      "location": "C-01-15",
+      "minQty": 25
+    },
+    {
+      "id": "CS-001",
+      "name": "Industrial Lubricant",
+      "qty": 0,
+      "location": "B-02-03",
+      "minQty": 10
+    },
+    {
+      "id": "FG-001",
+      "name": "Finished Widget A",
+      "qty": 120,
+      "location": "B-02-05",
+      "minQty": 20
+    },
+    {
+      "id": "RM-001",
+      "name": "Raw Material X",
+      "qty": 300,
+      "location": "A-01-01",
+      "minQty": 50
+    }
+  ],
+  "locations": [
+    "A-01-01",
+    "A-01-02",
+    "A-01-03",
+    "B-02-01",
+    "B-02-02",
+    "B-02-03",
+    "B-02-04",
+    "B-02-05",
+    "C-01-15"
+  ],
+  "picklists": [],
+  "transactions": [
+    {
+      "id": "t_1",
+      "type": "receive",
+      "itemId": "FG-001",
+      "qty": 25,
+      "at": "2025-12-15T19:45:00.000Z"
+    },
+    {
+      "id": "t_2",
+      "type": "issue",
+      "itemId": "CP-001",
+      "qty": -15,
+      "at": "2025-12-15T17:20:00.000Z"
+    },
+    {
+      "id": "t_3",
+      "type": "receive",
+      "itemId": "RM-001",
+      "qty": 100,
+      "at": "2025-12-15T12:30:00.000Z"
+    }
+  ]
+}

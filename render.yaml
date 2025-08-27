@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wareflow-wms
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    instances: 1
+    autoDeploy: true
